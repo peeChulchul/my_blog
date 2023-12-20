@@ -1,0 +1,82 @@
+[
+  {
+    "title": "개인프로젝트 fanPage",
+    "description": "개인프로젝트를 통해 rtk, rtk thunk, reqct-query 숙달",
+    "date": "2023-12-05",
+    "category": "project",
+    "path": "fanPage",
+    "featured": false
+  },
+  {
+    "title": "Context api",
+    "description": "context api사용법을 익혀보자.",
+    "date": "2023-11-07",
+    "category": "react",
+    "path": "knowledge_context",
+    "featured": false
+  },
+  {
+    "title": "next.js 입문전 사전지식",
+    "description": "넥스트.js에 입문전 랜더링종류에대해 알아보자.",
+    "date": "2023-12-19",
+    "category": "domain",
+    "path": "knowledge_next",
+    "featured": true
+  },
+  {
+    "title": "react query",
+    "description": "유용한 라이브러리인 react-query를 사용해보자.",
+    "date": "2023-11-29",
+    "category": "react",
+    "path": "knowledge_reactQuery",
+    "featured": false
+  },
+  {
+    "title": "react redux",
+    "description": "상태관리 라이브러리 redux를 사용해보자.",
+    "date": "2023-11-09",
+    "category": "react",
+    "path": "knowledge_redux",
+    "featured": false
+  },
+  {
+    "title": "react rtk",
+    "description": "편리해진 redux rtk를 사용해보자.",
+    "date": "2023-11-28",
+    "category": "react",
+    "path": "knowledge_rtk",
+    "featured": true
+  },
+  {
+    "title": "Typescript",
+    "description": "타입스크립트에 대해 알아보자",
+    "date": "2023-12-15",
+    "category": "react",
+    "path": "knowledge_ts",
+    "featured": true
+  },
+  {
+    "title": "팀프로젝트 영화페이지",
+    "description": "팀프로젝트를 통해 협업에 익숙해지자",
+    "date": "2023-10-30",
+    "category": "project",
+    "path": "moviePage",
+    "featured": true
+  },
+  {
+    "title": "팀프로젝트 뉴스피드",
+    "description": "더욱 심화된 팀프로젝트를 통해 협업에 익숙해지자",
+    "date": "2023-11-24",
+    "category": "project",
+    "path": "newsfeed",
+    "featured": true
+  },
+  {
+    "title": "팀프로젝트 아웃소싱",
+    "description": "팀프로젝트를 통해 이전과정을 복습하고 효율적인 협업에대해 생각해보자",
+    "date": "2023-12-11",
+    "category": "project",
+    "path": "outsourcing",
+    "featured": true
+  }
+]
