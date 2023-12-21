@@ -1,3 +1,13 @@
+import FeaturePosts from "@/components/home/FeaturedPosts";
+import Hero from "@/components/common/Hero";
+import CarouselPosts from "@/components/home/CarouselPosts";
+
 export default function Home() {
-  return <main className="bg-slate-700">main</main>;
+  return (
+    <>
+      <Hero />
+      <FeaturePosts />
+      <CarouselPosts />
+    </>
+  );
 }
