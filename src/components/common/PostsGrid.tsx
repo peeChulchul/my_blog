@@ -1,5 +1,5 @@
 import React from "react";
-import { IPost } from "type/posts";
+import { IPost } from "types/posts";
 import PostCard from "./PostCard";
 
 interface IProps {

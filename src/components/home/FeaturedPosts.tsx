@@ -1,6 +1,6 @@
 import React from "react";
 import PostsGrid from "@/components/common/PostsGrid";
-import { getFeaturedPosts } from "api/posts";
+import { getFeaturedPosts } from "@/service/posts";
 
 export default async function FeaturePosts() {
   const posts = await getFeaturedPosts();

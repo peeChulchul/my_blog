@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { IPost } from "type/posts";
+import { IPost } from "types/posts";
 import PostsGrid from "../common/PostsGrid";
 import Categories from "./Categories";
 

@@ -1,11 +1,21 @@
 import AdjacentPost from "@/components/posts/AdjacentPost";
 import PostContent from "@/components/posts/PostContent";
-import { getPostData } from "api/posts";
+import { getFeaturedPosts, getPostData } from "@/service/posts";
+import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
 interface IProps {
   params: {
     slug: string;
+  };
+}
+
+export async function generateMetadata({ params: { slug } }: IProps): Promise<Metadata> {
+  const post = await getPostData(slug);
+  const { title, description } = post;
+  return {
+    title,
+    description
   };
 }
 
@@ -27,4 +37,11 @@ export default async function PostPage({ params: { slug } }: IProps) {
       </section>
     </article>
   );
+}
+
+export async function generateStaticParams() {
+  const posts = await getFeaturedPosts();
+  return posts.map((post) => ({
+    slug: post.path
+  }));
 }

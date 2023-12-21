@@ -1,7 +1,7 @@
 import React from "react";
 import { AiTwotoneCalendar } from "react-icons/ai";
 import MarkdownViewer from "@/components/common/MarkdownViewer";
-import { IPostData } from "type/posts";
+import { IPostData } from "types/posts";
 
 interface IProps {
   post: IPostData;

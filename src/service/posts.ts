@@ -1,14 +1,15 @@
 import { readFile } from "fs/promises";
 import path from "path";
-import { IPost, IPostData } from "type/posts";
+import { cache } from "react";
+import { IPost, IPostData } from "types/posts";
 
-export async function getAllPosts(): Promise<IPost[]> {
+export const getAllPosts = cache(async () => {
   const filePath = path.join(process.cwd(), "data/posts", "posts.json");
   const data = await readFile(filePath, "utf-8");
   const result: IPost[] = JSON.parse(data);
 
   return result.sort((a, b) => (a.date > b.date ? -1 : 1));
-}
+});
 
 export async function getFeaturedPosts(): Promise<IPost[]> {
   const allPost = await getAllPosts();

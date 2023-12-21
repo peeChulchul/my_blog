@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { IPost } from "type/posts";
+import { IPost } from "types/posts";
 
 interface IProps {
   post: IPost;
