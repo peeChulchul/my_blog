@@ -10,3 +10,13 @@
 * 개인블로그 개발
 
 <img width="893" alt="image" src="https://github.com/peeChulchul/next_blog/assets/144536397/bfaa4ba8-cdea-4674-8ebd-d7950c7dcc83">
+
+# 트러블 슈팅
+
+## 포스트 가져오기
+
+### as-is
+전체 포스트를 가져오는함수가 중복해서 호출되는 문제가 발생
+
+### to-be
+react에서 제공하는 cache 를 사용하여 중복호출되지 않도록 수정
