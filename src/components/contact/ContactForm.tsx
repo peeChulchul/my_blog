@@ -43,7 +43,7 @@ export default function ContactForm() {
           Your Email
         </label>
         <input
-          className="text-black"
+          className="text-black px-1"
           type="email"
           id="from"
           name="from"
@@ -56,7 +56,7 @@ export default function ContactForm() {
           Your subject
         </label>
         <input
-          className="text-black"
+          className="text-black px-1"
           type="text"
           id="subject"
           name="subject"
@@ -68,7 +68,7 @@ export default function ContactForm() {
           Your message
         </label>
         <textarea
-          className="text-black resize-none"
+          className="text-black resize-none p-1"
           id="message"
           rows={10}
           name="message"
