@@ -10,7 +10,7 @@ const LINKS = [
 
 export const metadata: Metadata = {
   title: "Contact Me",
-  description: "PeeChulchul에게 메일보내기"
+  description: "메일보내기"
 };
 
 export default function ContactPage() {
@@ -24,7 +24,7 @@ export default function ContactPage() {
           </a>
         ))}
       </ul>
-      <p>info@PeeChulchul.com</p>
+      <p>silo9506@gmail.com</p>
       <h2 className="text-xl font-semibold mt-8 ">Or Send me an email</h2>
       <ContactForm />
     </section>

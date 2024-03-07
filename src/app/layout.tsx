@@ -8,8 +8,8 @@ const inter = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "PeeChulchul의 블로그",
-    template: "PeeChulchul의 블로그 | %s"
+    default: "My blog",
+    template: "My blog | %s"
   },
   description: "넥스트로 만들어보는 블로그"
 };
