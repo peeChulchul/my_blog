@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="text-center">
       <Image
         priority
-        className="mx-auto sm:w-[250px] sm:h-[250px] w-[200px] h-[200px] rounded-full"
+        className="mx-auto sm:w-[250px] sm:h-[250px] w-[200px] h-[200px] bg-black rounded-full"
         src={profileImage}
         alt="author image"
       />
